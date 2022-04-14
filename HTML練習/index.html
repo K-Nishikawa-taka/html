@@ -1,0 +1,64 @@
+<!-- 文書型宣言(HTML) -->
+<!DOCTYPE html>
+<!-- このコードがHTMLで記述していることを示す -->
+<html lang="ja">
+  <!-- head(Weｂサイトの情報を詰め込む) -->
+  <head>
+    <!-- meta要素(ページ情報を定義する) -->
+    <!-- meta charaset(文字の表示方法を定義) -->
+    <meta charset="UTF-8" />
+    <!-- CSSを読み込ませる -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- タイトル(ブラウザのツールバーや検索エンジンに表示) -->
+    <title>CALAVAN</title>
+  </head>
+  <!-- body(ブラウザに表示する内容を定義) -->
+  <body>
+    
+    <!-- header -->
+    <header>
+      <!-- 見出し -->
+      <h1 class="heading">
+        <!-- リンク属性を与える -->
+        <a href="index.html">
+          CALAVAN
+        </a>
+      </h1>
+    </header>
+
+    <!-- navigation -->
+    <nav>
+      <!-- ul要素(リスト表示) -->
+      <!-- 中にli要素でリストの中身を設定 -->
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-list-item">About</li>
+        <li class="nav-list-item">Topic</li>
+      </ul>
+    </nav>
+
+    <!-- main-visual用のdiv -->
+    <div class="main-visual">
+      <!-- main-visual-content用のdiv -->
+      <div class="main-visual-content"></div>
+    </div>
+
+    <!-- main用のdiv -->
+    <div class="main">
+      <!-- blog用のdiv -->
+      <div class="blog"></div>
+      <!-- sidebar用のdiv -->
+      <div class="sidebar"></div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p class="footer-text">
+        © All rights reserved by Infratop.Inc.
+      </p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,35 @@
+/* 要素box1に対して導入 */
+.box1 {
+  /*幅300px */
+  width: 300px;
+  /* 高さ300px */
+  height: 300px;
+  /* 背景色を赤に指定 */
+  /* 英字でもカラーコードでも指定可能 */
+  background-color: #FF0000;
+  margin: 30px;
+  padding: 30px;
+}
+
+/* 要素box2に対し導入 */
+/* box1の内側の箱 */
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: #0000FF;
+  /*　box2の外枠に枠線 */
+  border: 5px solid yellow;
+}
+
+/* pxで指定(要素の絶対的な大きさを指定) */
+/* %で指定(画面幅や親要素に対する相対的な大きさ) */
+/* autoで指定(画面幅や親要素の大きさに合わせる) */
+
+/* border：要素の外枠に枠線 */
+/* margin：要素の外側に余白 *//* 背景色が適用されない */
+/* padding：要素の内側に余白 */ /* 背景色が適用される */
+
+/* solid：実線 */
+/* double：二重線 */
+/* dashed：破線 */
+/* dotted：点線 */

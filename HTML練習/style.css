@@ -1,0 +1,99 @@
+/* リセットcss(ブラウザが持ってるcssをリセット) */
+. {
+  margin: 0;
+  padding: 0;
+  /* 要素の大きさがcssで指示した通りになる */
+  box-sizing: border-box;
+  color: #6c6b6b; /*文字色のデフォルト指定*/
+}
+
+/*リンク要素のcss*/
+a {
+  text-decoration: none; /*リンクによる色の変更をなくす*/  
+}
+
+/*headerクラスのcss*/
+header {
+  width: 90%; /*横幅90%*/
+  padding: 15px 0; /*上下方向に15pxの余白*/
+  margin: 0 auto; /*横中央ぞろえ*/
+  text-align: center; /*テキストを要素の中央に*/
+}
+
+/* headerクラス内のheadingクラスのcss*/
+header .heading {
+  font-size: 32px; /*文字の大きさ32px*/
+}
+
+/*nav-listクラスのcss*/
+.nav-list {
+  text-align: center; /*要素内テキストの中央ぞろえ*/
+  padding: 10px 0; /*上下方向に10pxの余白*/
+  margin: 0 auto; /*横中央ぞろえ*/
+}
+
+/*nav-list-itemクラスのcss*/
+.nav-list-item {
+  list-style: none; /*行頭文字なし*/
+  display: inline-block; /*改行せず横に並べる*/
+  margin: 0 20px; /*リストの要素ごとに左右20pxの余白*/
+}
+
+/*main-visualクラスのcss*/
+.main-visual {
+  width: 100%; /*横幅いっぱい*/
+  height: 300px; /*高さ300px*/
+}
+
+/*main-visual-contentクラスのcss*/
+.main-visual-content {
+  width: 350px;  /*左から幅350px*/
+  height: 300px; /*親要素に合わせる*/
+}
+
+/*mainクラスのcss*/
+.main {
+  width: 840px; /*横幅いっぱい*/
+  display: flex; /*Flexboxの利用(子要素を横並び)*/
+  justify-content: center; /*子要素を中央ぞろえ*/
+  margin: 0 auto; /*中央寄せ(左右に余白がないとできない)*/
+}
+
+/*blogクラス用のcss*/
+.blog {
+  width: 600px; /*幅600px*/
+  height: 1400px; /*高さ1400px*/
+}
+
+/*sidebarクラス用のcss*/
+.sidebar {
+  width: 240px; /*幅240px*/
+  height: 1400px; /*高さ14000px*/
+}
+
+/*footerクラスのcss*/
+footer {
+  width: 100%; /*横幅いっぱい*/
+  height: 120px; /*高さ120px*/
+  text-align: center; /*要素内のテキストを中央ぞろえ*/
+  line-height: 120px; /*行間120px*/
+  background-color: #848282; /*背景色*/
+}
+
+/*footer-textクラスのcss*/
+.footer-text {
+  color: #fff;
+}
+
+/* pxで指定(要素の絶対的な大きさを指定) */
+/* %で指定(画面幅や親要素に対する相対的な大きさ) */
+/* autoで指定(画面幅や親要素の大きさに合わせる) */
+
+/* border：要素の外枠に枠線 */
+/* margin：要素の外側に余白 *//* 背景色が適用されない */
+/* padding：要素の内側に余白 */ /* 背景色が適用される */
+
+/* solid：実線 */
+/* double：二重線 */
+/* dashed：破線 */
+/* dotted：点線 */
